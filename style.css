@@ -55,9 +55,9 @@ nav{
     margin-bottom:20px;
 }
 
-.redessociais {
+section {
     text-align: center;
-}
+ }
 
 .hero p{
     font-size:20px;
@@ -146,6 +146,36 @@ nav{
 .card button:hover{
     background:#2e7d32;
 }
+
+/* Estilo para os botões das redes sociais */
+.social-btn {
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilo específico para o botão do Facebook */
+  .facebook-btn {
+    background-color: #3b5998;
+  }
+  
+  .facebook-btn:hover {
+    background-color: #2d4373;
+  }
+  
+  /* Estilo específico para o botão do TikTok */
+  .tiktok-btn {
+    background-color: #000;
+  }
+  
+  .tiktok-btn:hover {
+    background-color: #333;
+  }
 
 /* SOBRE */
 
