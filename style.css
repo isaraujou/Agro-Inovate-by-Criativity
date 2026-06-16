@@ -84,10 +84,6 @@ section {
     flex-wrap:wrap;
 }
 
-.p {
-    text-align: center;
-}
-
 .card{
     width:300px;
     background:white;
