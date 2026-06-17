@@ -242,3 +242,15 @@ footer{
     max-width:1200px;
     margin:auto;
 }
+}
+
+body{
+    background:white;
+    color:black;
+    transition:0.3s;
+}
+
+.escuro{
+    background:#121212;
+    color:white;
+}

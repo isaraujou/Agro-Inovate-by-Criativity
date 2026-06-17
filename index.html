@@ -22,11 +22,16 @@
 
 <div class="logo">Agro-Plant</div>
     <ul>
+        <button id="temaBtn" onclick="trocarTema()">
+            🌙
+        </button>
         <a href="#">🏠Início</a>
         <a href="#">🌽Produtos</a>
         <a href="#">🤝Doadores</a>
         <a href="#">📞Contato</a>
         <a href="#">🚚Entrega</a>
+        <p id="contador">Carrinho (0)</p>
+        <p id="total">Total: R$ 0,00</p>
     </ul>
     </nav>
 
@@ -65,9 +70,9 @@ Mudas saudáveis para pequenos produtores.
 
 <br>
 
-<button>
-Comprar
-</button>
+<button onclick="comprar('Mudas de tomate',12.90)">
+    Comprar
+    </button>
 
 </div>
 
@@ -85,7 +90,7 @@ Ideal para agricultura familiar e sustentável.
 
 <br>
 
-<button onclick="comprar('Sementes de Milho')">
+<button onclick="comprar('Sementes de Milho',9.90)">
 Comprar
 </button>
 
@@ -105,8 +110,8 @@ Produção de qualidade para pequenos agricultores.
 
 <br>
 
-<button onclick="comprar('Mudas de Café')">
-Comprar
+<button onclick="comprar('Mudas de Tomate',12.90)">
+    Comprar
 </button>
 
 <br>
@@ -117,6 +122,10 @@ Ver mais
 </button>
 
 </div>
+
+<br>
+<h3> <button> Carrinho </button></h3>
+<ul id="listaCarrinho"></ul>
 
 </div>
 
@@ -135,6 +144,8 @@ Ver mais
 </section>
 <br>
 
+
+<hr>
 <section class="sobre">
 
 <h2> <strong>Sobre o Agro Inovate by Criativy </strong></h2>
