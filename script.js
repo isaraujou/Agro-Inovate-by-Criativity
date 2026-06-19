@@ -50,8 +50,8 @@ function trocarTema(){
     let btn = document.getElementById("temaBtn");
 
     if(document.body.classList.contains("escuro")){
-        btn.textContent = "☀️";
+        btn.textContent = "☀️ Claro";
     }else{
-        btn.textContent = "🌙";
+        btn.textContent = "🌙 Escuro";
     }
 }
