@@ -29,7 +29,7 @@
         <a href="#">🤝Doadores</a>
         <a href="#">📞Contato</a>
         <a href="#">🚚Entrega</a>
-        <p id="contador">Carrinho (0)</p>
+        <p id="contador">🛒 Carrinho (0)</p>
         <p id="total">Total: R$ 0,00</p>
     </ul>
     </nav>
@@ -39,10 +39,11 @@
 <main>
 <section class="hero">
 
-<h1>🌱 Melhorando a acessibilidade e facilidade de venda de sementes e mudas.</h1>
+<h1>Melhorando a acessibilidade e facilidade de venda de sementes e mudas.</h1>
 
 <h1>Agro Inovate</h1>
-<p>Conectando agricultores a sementes e mudas de qualidade.</p> <!--objetivo-->
+<h1>Conectando agricultores a sementes e mudas de qualidade</h1>
+<p>Produtos acessíveis para pequenos e médios produtores.</p> <!--objetivo-->
 <button>Ver Produtos</button>
 
 </section>
@@ -72,6 +73,36 @@ Mudas saudáveis para pequenos produtores.
 <button onclick="comprar('Mudas de tomate',12.90)">
     Comprar
     </button>
+
+    <section class="cep">
+        <h2>Guia de Cultivo por Região</h2>
+    
+        <input type="text" id="cep" placeholder="Digite seu CEP">
+    
+        <button onclick="consultarCultivo()">
+            Consultar
+        </button>
+    
+        <div id="resultado"></div>
+    </section>
+    
+    <section class="ficha">
+        <h2>Ficha Técnica Interativa</h2>
+    
+        <div class="card">
+    
+            <h3>Muda de Tomate</h3>
+    
+            <p><strong>Dificuldade:</strong> Iniciante</p>
+    
+            <p><strong>Luminosidade:</strong> Sol Pleno ☀️</p>
+    
+            <p><strong>Pet Friendly:</strong> ❌ Não</p>
+    
+        </div>
+    </section>
+
+
 
 </div>
 

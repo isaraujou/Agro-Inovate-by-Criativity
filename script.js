@@ -55,3 +55,35 @@ function trocarTema(){
         btn.textContent = "🌙 Escuro";
     }
 }
+
+function consultarCultivo(){
+
+    let cep = document.getElementById("cep").value;
+
+    let resultado =
+    document.getElementById("resultado");
+
+    if(cep.startsWith("87")){
+
+        resultado.innerHTML = `
+        <h3>Recomendado para este mês:</h3>
+        <ul>
+            <li>Tomate 🍅</li>
+            <li>Alface 🥬</li>
+            <li>Cebolinha 🌿</li>
+        </ul>
+        `;
+
+    }else{
+
+        resultado.innerHTML = `
+        <h3>Recomendado:</h3>
+        <ul>
+            <li>Milho 🌽</li>
+            <li>Feijão 🌱</li>
+            <li>Abóbora 🎃</li>
+        </ul>
+        `;
+
+    }
+}
